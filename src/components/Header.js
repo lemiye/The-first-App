@@ -11,7 +11,6 @@ function Header () {
             </div>
 
             <div className="Search"></div>
-
         </div>
 
     )
