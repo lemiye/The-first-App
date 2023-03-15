@@ -1,7 +1,11 @@
-function Home () {
-    return (
-        <h2>This is the Home</h2>
-    )
-
+import ShowList from "../components/ShowList";
+import showsData from "../shows-data";
+function Home() {
+  return (
+    <div>
+      <ShowList shows={showsData} />
+      <h2>This is the Home page</h2>
+    </div>
+  );
 }
-export default Home
+export default Home;

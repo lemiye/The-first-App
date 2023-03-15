@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(224, 222, 202);
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2c2834;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,18 +37,30 @@
     transform: rotate(360deg);
   }
 }
-.Show {
+.Show{
   display: block;
   width: 200px;
   border: 1px solid black;
   margin: 10px;
   border-radius: 15px;
   overflow: hidden;
+  color: rgb(36, 9, 172);
+  font-size:medium;
 }
+  .Show:hover:not(.Home.Show){
+    overflow: hidden;
+    background-color: rgb(230, 132, 245);
+    color: #880909;
+    font-style: italic;
+    
+    
+}
+
 
 .Show-image {
   width: 100%;
 }
+  
 .App{
   width: 100%;
 }
@@ -63,10 +76,10 @@
 .Logo {
   width: 100px;
   height: 50px;
-  background-color: aquamarine;
+  background: url("/public/maze.png") no-repeat center/contain;
 }
 
-.Search {
+.Search input{
   width: 150px;
   height: 50px;
   background-color: white;
@@ -81,10 +94,19 @@ justify-content: space-between;
 .Navigation a {
   color: white;
   font-weight: bold;
+  font-style:normal;
+}
+
+.Show:hover:not(.Home){
+    background-color: rgb(230, 132, 245);
 }
 .ShowList{
   display: grid;
   grid-template-columns: repeat(4,1fr);
 }
-
-
+.Home{
+  background: rgb(213, 74, 181);
+}
+.Navigation:hover:not(.Home){
+  background-color: rgb(241, 108, 81);
+}
