@@ -1,6 +1,4 @@
 import "./App.css";
-import ShowList from "./components/ShowList";
-import showsData from "./shows-data";
 import Header from "./components/Header";
 import Upcoming from "./Pages/Upcoming";
 import Favorites from "./Pages/Favorites";
