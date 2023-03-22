@@ -86,17 +86,17 @@
   border-radius: 20px;
 }
 .Navigation {
-  display: flex;
+  display:flex;
   gap: 30px;
   align-items: center;
-justify-content: space-between;
+justify-content:space-between;
 }
 .Navigation a {
   color: white;
   font-weight: bold;
   font-style:normal;
 }
-
+ul{list-style: none;}
 .Show:hover:not(.Home){
     background-color: rgb(230, 132, 245);
 }
